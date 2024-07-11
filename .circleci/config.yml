@@ -11,5 +11,5 @@ workflows:
           name: Scan repository for secrets
           context:
             - snyk-bot-slack
-          channel: <<ADD_TEAM_CHANNEL_HERE>>
-          trusted-branch: main
+          channel: alerts-app-sec
+          trusted-branch: master
